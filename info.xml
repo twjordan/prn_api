@@ -24,6 +24,10 @@
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>
+    <requires>
+    <ext>mjwshared</ext>
+    <ext>Stripe</ext>
+  </requires>
   <civix>
     <namespace>CRM/PrnApi</namespace>
     <format>22.05.2</format>

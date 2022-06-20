@@ -13,6 +13,7 @@ The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 * PHP v7.2+
 * CiviCRM 5.5+
+* https://lab.civicrm.org/extensions/stripe Extension and MJW Payment Shared
 
 ## Installation (Web UI)
 
