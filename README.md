@@ -1,15 +1,18 @@
 # prn_api
 
-![Screenshot](/images/screenshot.png)
+Utility API Calls for the Parking Reform Network
 
-(Private API calls for PRN)
+* cv api PRN.importcharge ppid=(payment processor id) charge=(stripe charge id) contact_id=(contact id) financial_type_id=(financial type id)
+
+The importcharge api in the [Stripe Extension for CiviCRM](https://lab.civicrm.org/extensions/stripe) doesn't work with one-off transactions that do not have a stripe invoice. This modified version hacks support for those transacations in. Use at your own risk.
+
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 ## Requirements
 
 * PHP v7.2+
-* CiviCRM (*FIXME: Version number*)
+* CiviCRM 5.5+
 
 ## Installation (Web UI)
 
@@ -35,10 +38,11 @@ git clone https://github.com/FIXME/prn_api.git
 cv en prn_api
 ```
 
-## Getting Started
-
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
-
 ## Known Issues
 
-(* FIXME *)
+* No tests!
+* financial_type lookup doesn't work, id required.
+
+## Acknowledgement
+
+Based on script in CiviCRM Stripe Extension https://lab.civicrm.org/extensions/stripe
