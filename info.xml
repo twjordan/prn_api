@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<extension key="prn_api" type="module">
+  <file>prn_api</file>
+  <name>PRN API Calls</name>
+  <description>API Calls for Parking Reform</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Tony Jordan</author>
+    <email>tony@parkingreform.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">http://FIXME</url>
+    <url desc="Documentation">http://FIXME</url>
+    <url desc="Support">http://FIXME</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2022-06-18</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.0</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/PrnApi</namespace>
+    <format>22.05.2</format>
+    <angularModule>crmPrnApi</angularModule>
+  </civix>
+  <mixins>
+    <mixin>mgd-php@1.0.0</mixin>
+    <mixin>setting-php@1.0.0</mixin>
+  </mixins>
+</extension>
