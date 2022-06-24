@@ -26,7 +26,6 @@
   </classloader>
     <requires>
     <ext>mjwshared</ext>
-    <ext>Stripe</ext>
   </requires>
   <civix>
     <namespace>CRM/PrnApi</namespace>
